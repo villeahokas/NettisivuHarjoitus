@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Villen Kitarapaja</title>
+    <meta name="Kuvaus" content="Tämä on kauppa">
+    <link rel="stylesheet" href="style.css">
+    <script src="kauppa.js" async></script>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">ETUSIVU</a></li>
+                <li><a href="mallit.html">KITARAT</a></li>
+                <li><a href="kauppa.html">KAUPPA</a></li>
+            </ul>
+        </nav>
+        <h1 class="Pajan-nimi Pajan-nimi-iso">Villen Kitarapaja</h1>
+    </header>
+
+    <section class="container content-section">
+        <h2 class="section-header">Kitarat</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">SUPER BLAZER</span>
+                <img class="shop-item-image" src="kuvat\SuperBlazer.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">399€</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lisää ostoskoriin</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">TELECASTER</span>
+                <img class="shop-item-image" src="kuvat\Telecaster-whitebg.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">599€</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lisää ostoskoriin</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">DOUBLE CUT</span>
+                <img class="shop-item-image" src="kuvat\DoubleCut.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">699€</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lisää ostoskoriin</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">STRATOCASTER</span>
+                <img class="shop-item-image" src="kuvat\strat.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">899€</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lisää ostoskoriin</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">Oheistuotteet</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">T-PAITA</span>
+                <img class="shop-item-image shop-item-merch-image" src="kuvat/tshirt.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">29€</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lisää ostoskoriin</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">MUKI</span>
+                <img class="shop-item-image shop-item-merch-image" src="kuvat/muki.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">25€</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lisää ostoskoriin</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="container content-section">
+
+        <h2 class="section-header">Ostoskori</h2>
+
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Tuote</span>
+            <span class="cart-price cart-header cart-column">Hinta</span>
+            <span class="cart-quantity cart-header cart-column">Määrä</span>
+        </div>
+
+        <div class="cart-items">
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Yhteensä</strong>
+            <span class="cart-total-price">0€</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Osta</button>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="Pajan-nimi">Katso lisää kitarapajasta</h3>
+            <ul class="nav footer.nav">
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="kuvat/YouTube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="kuvat/Facebook Logo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
